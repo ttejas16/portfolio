@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ArrowDown from "./ArrowDown";
+import ProfileImage from "../assets/profile.jpg";
 
 function Header() {
     const [isHover, setIsHover] = useState(true);
@@ -16,7 +17,7 @@ function Header() {
                     <div className={`w-full h-full rounded-full cursor-pointer hover:p-3 duration-100 ${animation}`}
                         onAnimationEnd={() => setIsHover(false)}
                         onMouseEnter={() => setIsHover(true)}>
-                        <img src="/src/assets/profile.jpg" alt="profile image" className=" object-cover w-full h-full rounded-full"  />
+                        <img src={ProfileImage} alt="profile image" className=" object-cover w-full h-full rounded-full"  />
                     </div>
 
                 </div>

@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import ArrowDown from "./ArrowDown";
+import NatureImage from "../assets/nature.svg";
 
 function Contact() {
     const [message,setMessage] = useState(null);
@@ -40,7 +41,7 @@ function Contact() {
 
                 <div className="hidden w-[50%] xl:flex flex-col justify-center items-center gap-y-5">
                     <div className="w-[80%] flex justify-center">
-                        <img src="/src/assets/nature.svg" alt="nature image" className="w-[80%] object-cover" />
+                        <img src={NatureImage} alt="nature image" className="w-[80%] object-cover" />
                         
                     </div>
                 </div>
