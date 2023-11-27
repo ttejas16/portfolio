@@ -21,7 +21,7 @@ function About() {
                         </p>
                         <p className="leading-[1.5em]">
                             In the next 3 years of my CS Degree I learned much more things about programming from the very basics to topics like 
-                            Data Strutures and many more. The first ever programming language I learned was C. Using this knowledge I kept learning
+                            Data Structures and many more. The first ever programming language I learned was C. Using this knowledge I kept learning
                             even more new things and started Web Development.  
                         </p>
                         <p className="leading-[1.5em]">

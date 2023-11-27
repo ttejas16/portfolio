@@ -35,7 +35,7 @@ const projects = [
         name: "Portfolio Website",
         description: "Personal Portfolio Website using React and tailwind.",
         icon: CgWebsite,
-        link:"https://github.com/ttejas16/BreakOut"
+        link:"https://github.com/ttejas16/portfolio"
 
     },
    

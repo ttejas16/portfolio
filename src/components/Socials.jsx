@@ -5,7 +5,7 @@ function Socials({ isSocials, align }) {
         return (
             <div className={`fixed h-[100vh] top-0 ${align} flex flex-col justify-start items-center py-4 gap-y-4 text-lightblue pl-1`}>
 
-                <hr className="h-[120px] border-[1.5px] md:border-[2px] rounded-2xl border-lightblue" />
+                <hr className="h-[15%] border-[2px] rounded-2xl border-lightblue" />
 
                 <div className="flex flex-col gap-y-4 text-white text-sm sm:text-base">
 
@@ -35,9 +35,9 @@ function Socials({ isSocials, align }) {
                     </div>
 
                 </div>
-                <hr className="h-[300px] border-[1.5px] md:border-[2px] rounded-2xl border-lightblue w-[3px]" />
-                <hr className="h-[250px] border-[1.5px] md:border-[2px] rounded-2xl border-lightblue w-[3px]" />
-                <hr className="h-[120px] border-[1.5px] md:border-[2px] rounded-2xl border-lightblue w-[3px]" />
+                <hr className="h-[30%] border-[2px] rounded-2xl border-lightblue" />
+                <hr className="h-[15%] border-[2px] rounded-2xl border-lightblue" />
+                <hr className="h-[30%] border-[2px] rounded-2xl border-lightblue" />
             </div>
         )
 
@@ -47,11 +47,11 @@ function Socials({ isSocials, align }) {
             <div className={`fixed h-[100vh] top-0 ${align} flex flex-col justify-start items-center py-4 gap-y-4 text-lightblue pr-3 md:pr-4`}>
 
 
-                <hr className="h-[80px] border-[1.5px] md:border-[2px] rounded-2xl border-lightblue w-[3px]" />
-                <hr className="h-[250px] border-[1.5px] md:border-[2px] rounded-2xl border-lightblue w-[3px]" />
-                <hr className="h-[300px] border-[1.5px] md:border-[2px] rounded-2xl border-lightblue w-[3px]" />
-                <hr className="h-[120px] border-[1.5px] md:border-[2px] rounded-2xl border-lightblue" />
-                <hr className="h-[120px] border-[1.5px] md:border-[2px] rounded-2xl border-lightblue" />
+                <hr className="h-[10%] border-[2px] rounded-2xl border-lightblue" />
+                <hr className="h-[30%] border-[2px] rounded-2xl border-lightblue" />
+                <hr className="h-[20%] border-[2px] rounded-2xl border-lightblue" />
+                <hr className="h-[10%] border-[2px] rounded-2xl border-lightblue" />
+                <hr className="h-[30%] border-[2px] rounded-2xl border-lightblue" />
             </div>
         )
     }
